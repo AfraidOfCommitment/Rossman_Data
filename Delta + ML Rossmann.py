@@ -201,6 +201,10 @@ import seaborn as sns # advanced vizs
 
 # COMMAND ----------
 
+
+
+# COMMAND ----------
+
 # DBTITLE 1,Data Analysis with Koalas
 silver_df = ks.read_delta("/mnt/rossmann/silver")
 
