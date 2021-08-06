@@ -153,8 +153,3 @@ spark.readStream \
 # COMMAND ----------
 
 dbutils.notebook.exit("stop")
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC woow
