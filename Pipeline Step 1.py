@@ -32,7 +32,7 @@ display(spark.read.format("parquet").schema("Store long, DayOfWeek long, Date ti
 # COMMAND ----------
 
 # DBTITLE 1,Open Stream for Transactions Table
-bronzeDF = spark.readStream \
+bronzeDF = spark.readStream\
                 .format("cloudFiles") \
                 .option("cloudFiles.format", "parquet") \
                 .option("cloudFiles.maxFilesPerTrigger", 1) \
@@ -153,3 +153,8 @@ spark.readStream \
 # COMMAND ----------
 
 dbutils.notebook.exit("stop")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC woow
