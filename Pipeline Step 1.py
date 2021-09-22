@@ -19,6 +19,7 @@
 
 # DBTITLE 1,Cross Notebook Reference
 # MAGIC %run ./setup
+# MAGIC #
 
 # COMMAND ----------
 
